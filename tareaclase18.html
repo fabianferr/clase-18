@@ -13,12 +13,14 @@ data-trigger="hover" data-placement="right" title="Titulo del Popover"
 data-content="Y aquí hay algo de contenido increíble. Es muy atractivo. ¿Verdad?">
 Popover on top
 </button>
-<script sre="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"</script>
+<script src="Bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="Bootstrap/js/popper.min.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+<script>
  //es necesario aplicar la funcion popover a los botones correspondientes
- $ (function () {
- 11;
- </script>
+    $ (function () {
+        $ ('[data-toggle="popover"]').popover();
+    });
+</script>
 </body>
 </html>
